@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Fitness | Fitness makes more happier!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+        /* CSS Reset */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("img/bg.jpg");
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 2px;
+            margin-left: 10px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 92px;
+            filter: invert(95%);
+            height: 42px;
+            margin-left: 4px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .middle {
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 2px;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Left Box for Logo -->
+        <div class="left">
+            <img src="img/icon.png" alt="Happy Fitness">
+            <div>Happy Fitness</div>
+        </div>
+        <!-- Left Box for Navbar -->
+        <div class="middle">
+            <ul class="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Left Box for Buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF UTTAR PRADESH NOW!</h1>
+        <form action="/Project1(Gym Website)/" class="form-control">
+            <div class="form-group">
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="number" name="age" id="age" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="gender" id="gender" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="locality" id="locality" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Enter Your E-mail">
+            </div>
+            <div class="form-group">
+                <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone Number">
+            </div>
+            
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
